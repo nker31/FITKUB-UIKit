@@ -1,14 +1,13 @@
 //
-//  ProfileController.swift
-//  HealthKub
+//  LoginController.swift
+//  FITKUB
 //
 //  Created by Nathat Kuanthanom on 15/2/2567 BE.
 //
 
 import UIKit
 
-class ProfileController: UIViewController {
-
+class LoginController: UIViewController {
     // MARK: - Varibles
     
     
@@ -23,11 +22,9 @@ class ProfileController: UIViewController {
     
     // MARK: - UI Setup
     func setupUI() {
-        title = "Profile"
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
     }
     
     // MARK: - Selectors
     
-
 }
